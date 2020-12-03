@@ -36,11 +36,6 @@ def mars_scraping():
 
 
     element = soup.select_one("ul.item_list li.slide")
-
-
-    # In[33]:
-
-
     element
 
 
@@ -167,7 +162,7 @@ def mars_scraping():
         "hemisphere": image_1
     }
     return mars_data
-    
+
 
 # In[ ]:
 
