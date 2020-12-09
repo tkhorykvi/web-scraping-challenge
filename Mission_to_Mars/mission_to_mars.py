@@ -13,7 +13,7 @@ import time
 # In[30]:
 
 
-executable_path = {"executable_path": "chromedriver"}
+executable_path = {"executable_path": "chromedriver.exe"}
 browser = Browser("chrome", **executable_path, headless=False)
 
 
