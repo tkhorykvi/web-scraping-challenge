@@ -11,11 +11,10 @@
 
 <body style="background:white;">
   <div class="container" style="background:white;"> 
-    <div class="jumbotron text-center" style"background-image: url>
+    <div class="jumbotron text-center">
       <h1>Mission to Mars</h1>
       <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
     </div>
-    <img src="full_image" alt="full_image">
     <h2>Latest Mars News</h2>
     <h3>{{mars_data.title}}</h3>
     <h4>{{mars_data.paragraph}}</h4>
@@ -35,11 +34,11 @@
     </div>
   </div>
   <br>
-
+<div class="container">
+  <div class="row">
   <h3 style="padding-top: 45px; margin-top: 95px; text-align: center;">Mars Hemisphere</h3>
-  <div class="card-deck">
     <div class="col-md-12">
-      <div class="row">
+
         {% for Hemisphere in mars_data.hemisphere %}
   <div class="col-md-6">
             <div class="thumbnail" style="width: 50%; float:left;">
